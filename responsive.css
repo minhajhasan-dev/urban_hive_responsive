@@ -32,6 +32,19 @@
         grid-template-columns: 1fr;
         margin: 20px;
     }
+    .discount-container{
+        flex-direction: column;
+    }
+    .discount-img{
+        width: 100%;
+    }
+    .discount-text{
+        width: 100%;
+        padding: 10px;
+    }
+    .discount-text div{
+        text-align: center;
+    }
 }
 /* tablet responsive styles starts here  */
 @media screen and (min-width:577px) and (max-width:768px) {
@@ -69,6 +82,18 @@
         grid-template-columns: repeat(2,1fr);
         margin: 20px;
     }
+    .discount-container{
+        flex-direction: column;
+    }
+    .discount-img{
+        width: 100%;
+    }
+    .discount-text{
+        width: 100%;
+        padding: 10px;
+    }
+    .discount-text div{
+        text-align: center;}
 }
 @media screen and (min-width:769px) and (max-width:992px){
     .grid-container{
