@@ -120,3 +120,43 @@ nav{
     border: 2px solid #9376E0;
     border-radius: 8px;
 }
+/* banner section design ends here  */
+/* product section style starts here  */
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+    max-width: 1400px;
+    margin:50px auto;
+    min-height: 400px;
+}
+.product{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    background-color:#EAE8EA ;
+    border-radius: 10px;
+    padding: 12px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.product img{
+    width: 70%;
+    display: block;
+    margin: 0 auto;
+}
+.product-icon-container{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.product-icon-container span{
+    padding: 5px;
+    background-color: #9376e0;
+    border-radius: 50%;
+    margin-left: 5px;
+    color: white;
+}
+.product-icon{
+    font-size: 20px;
+
+}
