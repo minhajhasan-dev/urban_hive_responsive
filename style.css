@@ -214,3 +214,58 @@ nav{
     top: 5%;
     right: 18%;
 }
+/* discount section ends here  */
+/* review section starts here  */
+.review-container{
+    min-height: 250px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 50px;
+}
+.review{
+    flex-basis: 300px;
+    background-color: #E893CF;
+    padding: 10px;
+    border-radius: 10px;
+}
+.review img{
+    width: 60px;
+    height: 60px;
+}
+.top-review{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* footer starts here  */
+.footer-logo-container{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.footer-logo-container img{
+    width: 50px;
+    object-fit:cover;
+}
+footer{
+    width: 100%;
+    min-height: 200px;
+    background-color: #9376E0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+footer a{
+    text-decoration: none;
+    color: rgb(255, 166, 0);
+}
+footer a:hover{
+    cursor: pointer;
+    font-size: 25px;
+    transition: 1s;
+
+}
